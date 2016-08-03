@@ -27,6 +27,24 @@ h1.page-header {
     outline: none;
 }
 
+.nav-pills > li > a {
+    color: #fff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #006687;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #006687;
+    font-weight: 600;
+    border-right: 5px solid #025069;
+}
+
+.nav-stacked > li {
+    background-color: #008cba;
+}
+
 .panel-title {
     font-weight: 600;
     font-size: 14px;
@@ -53,6 +71,7 @@ h1.page-header {
 }
 .side-menu .navbar {
     border: none;
+    background: #fff;
 }
 .filter-by-select {
     font-size: 13px;
