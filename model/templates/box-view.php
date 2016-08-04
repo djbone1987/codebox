@@ -13,7 +13,7 @@
       </form>
   </div>
 </div>
-
+<div id="section-content">
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -109,3 +109,4 @@
     </div>
   </div>
 </div>
+  </div>

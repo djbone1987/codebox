@@ -1,9 +1,10 @@
 
-
 //code example click
 $(document).ready(function () {
 
-
+/*    window.onload = function() {
+        changeSection(0);
+    };*/
 
     //code example click
     $(".cx").click(function () {
@@ -18,9 +19,11 @@ $(document).ready(function () {
 
 
 
-
 });
+/*
+function changeSection(sectionID) {
 
-function changeSection($sectionID) {
-    console.log("changed " + $sectionID);
-}
+        $("#section-content").load('model/templates/box-section.php?id='+sectionID.value);
+
+}*/
+

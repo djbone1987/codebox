@@ -15,39 +15,76 @@ h1.page-header {
     margin-top: -20px;
     padding-right: 0px;
 }
-
+.panel-default > .panel-heading {
+    color: #333333;
+    background-color: rgb(237,246,211);
+    border-color: #dddddd;
+}
 .footer {
     width: 100%;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: rgb(123,156,29);
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgb(123,156,29);
+    color: #ffffff;
+}
+.panel-primary > .panel-heading {
+    background-color: transparent;
 
+}
+.panel-primary {
+    border-color: rgb(165, 208, 40);
+}
+.panel-primary > .panel-heading {
+    color: #000;
+    background-color: rgb(202, 229, 123);
+    border: none;
+}
 .btn {
     font-size: 12.4px;
 }
 :focus {
     outline: none;
 }
-
+.navbar-inverse .navbar-nav > li > a {
+    color: #000;
+    font-weight: 400;
+}
 .nav-pills > li > a {
-    color: #fff;
+    color: #000;
+    font-weight: 400;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #006687;
+    background-color: rgb(123,156,29);
+    color: #fff;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    background-color: #006687;
+    background-color: rgb(123,156,29);
     font-weight: 600;
-    border-right: 5px solid #025069;
+    border-right: 5px solid rgb(82,104,19);
 }
 
 .nav-stacked > li {
-    background-color: #008cba;
+    background-color: rgb(165,208,40);
 }
-
+.navbar-inverse {
+background-color: rgb(165,208,40);
+}
+#section-content {
+    margin-top: 10px;
+}
+.panel {
+    margin-bottom: -1px;
+}
 .panel-title {
     font-weight: 600;
     font-size: 14px;
+    color:black;
 }
 .well-sm {
     color: #f5f5f5;

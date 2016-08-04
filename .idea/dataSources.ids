@@ -122,7 +122,7 @@
       </column>
       <column id="37" parent="6" name="example_title">
         <mandatory>1</mandatory>
-        <data-type>int(30)</data-type>
+        <data-type>varchar(30)</data-type>
       </column>
       <column id="38" parent="6" name="example_code">
         <mandatory>1</mandatory>
@@ -160,23 +160,29 @@
         <mandatory>1</mandatory>
         <data-type>tinyint(1)</data-type>
       </column>
-      <key id="47" parent="7" name="PRIMARY">
+      <column id="47" parent="7" name="user_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="48" parent="7" name="box_id">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="49" parent="7" name="PRIMARY">
         <columns>element_id</columns>
         <primary>1</primary>
       </key>
-      <column id="48" parent="8" name="user_id">
+      <column id="50" parent="8" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(5)</data-type>
       </column>
-      <key id="49" parent="8" name="PRIMARY">
+      <key id="51" parent="8" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
       </key>
-      <column id="50" parent="9" name="user_id">
+      <column id="52" parent="9" name="user_id">
         <mandatory>1</mandatory>
         <data-type>int(5)</data-type>
       </column>
-      <key id="51" parent="9" name="PRIMARY">
+      <key id="53" parent="9" name="PRIMARY">
         <columns>user_id</columns>
         <primary>1</primary>
       </key>
