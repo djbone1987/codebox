@@ -42,7 +42,7 @@ function navigation_side($page_selected, $box_selected) {
 
   switch ($page_selected) {
     case "dashboard":
-      $output .= "<li class='active'><a href='?pageSelected=dashboard'> Dashboard</a></li>";
+      $output .= "<li class='active'><a href='?pageSelected=dashboard'><img src='../view/images/php.gif' /> Dashboard</a></li>";
       $output .= navigation_box_list(0);
       break;
     case "openBox":

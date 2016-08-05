@@ -150,7 +150,7 @@ function box_section_dropdown($box_selected, $section_selected) {
   global $connection;
   global $current_user_id;
 
-  $output = "<select class=\"form-control space-area filter-by-select\" id=\"section-selector\" onchange=\"changeSection(this)\">";
+  $output = "<select class=\"form-control space-area filter-by-select\" name=\"section_selector\" id=\"section-selector\" onchange=\"document.section_filter.submit();\">";
 
 
   if ($section_selected == 0 || empty($section_selected)) {
